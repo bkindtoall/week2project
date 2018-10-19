@@ -1,11 +1,29 @@
-#story {
-  display: none;
-}
 .jumbotron {
   background-image: url("../img/codevisual.jpeg");
   background-color: #df6238;
   background-repeat: no-repeat;
   background-position: right 8px bottom 45%;;
   margin: 4px;
+}
+.container-fluid {
+  width: 100%;
+  clear: both;
+/*  border: 2px solid black; */
+}
 
+.box {
+  box-sizing: border-box-box;
+  width: 46%;
+  float: left;
+  text-align: center;
+  margin: 4px;
+  margin-bottom: 12px;
+}
+
+.container {
+  width: 100%;
+  clear: both;
+  
+#story {
+  display: none;
 }
