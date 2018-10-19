@@ -32,12 +32,10 @@
   font-family: fantasy;
 }
 
+#questionnaire {
+  display: none;
+}
+
 .container {
   width: 100%;
   clear: both;
-
-
-
-#story {
-  display: none;
-}
