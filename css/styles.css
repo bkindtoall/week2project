@@ -21,8 +21,9 @@
   padding-top: 2%;
 }
 
+* {box-sizing: border-box;}
+
 .box {
-  box-sizing: border-box-box;
   width: 46%;
   float: left;
   text-align: center;
