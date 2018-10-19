@@ -1,3 +1,11 @@
 #story {
   display: none;
 }
+.jumbotron {
+  background-image: url("../img/codevisual.jpeg");
+  background-color: #df6238;
+  background-repeat: no-repeat;
+  background-position: right 8px bottom 45%;;
+  margin: 4px;
+
+}
