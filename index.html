@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -35,17 +35,17 @@
         <hr>
       </div>
       <div id="blanks">
-        <form class="needs-validation" novalidate>
+        <form id="formOne">
           <div class="form-row">
             <div class="col-md-4 mb-3">
-              <label for="validationCustom01"></label>
+              <label for="firstName"></label>
               <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
               <div class="invalid-feedback">
                 Enter your first name
               </div>
             </div>
             <div class="col-md-4 mb-3">
-              <label for="validationCustom02"></label>
+              <label for="lastName"></label>
               <input type="text" class="form-control" id="lastName" placeholder="Last name" required>
               <div class="invalid-feedback">
                 Enter your Last name
@@ -188,13 +188,12 @@
             <button type="submit" class="button1">Submit!</button>
           </div>
         </form>
-    </div>
-  </div>
-
+      </div>
+      <br>
     <div id="questionnaire">
       <h1>Thank you for your answers</h1>
-      <p>Your First Name: <span class="firstName"></span></p>
-      <p>Your Last Name: <span class="lastName"></span></p>
+      <p>First Name: <span class="firstName"></span></p>
+      <p>Last Name: <span class="lastName"></span></p>
     </div>
 
 

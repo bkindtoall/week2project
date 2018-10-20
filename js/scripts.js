@@ -1,7 +1,6 @@
-$(document).ready (function() {
-  $("#needs-validation").submit (function(event) {
-    var forms = document.getElementsByClassName('needs-validation');
-    console.log(forms);  
+$(document).ready(function() {
+  $("#formOne").submit(function(event) {
+    event.preventDefault();
     var firstNameInput = $("input#firstName").val();
     var lastNameInput = $("input#lastName").val();
     var q1answer1Input = $("input#q1answer1").val();
@@ -25,9 +24,7 @@ $(document).ready (function() {
     var q5answer5Input = $("input#q5answer5").val();
     var q5answer6Input = $("input#q5answer6").val();
 
-
-
-    $(".lastName").text(firstNameInput);
+    $(".firstName").text(firstNameInput);
     $(".lastName").text(lastNameInput);
     $(".q1answer1").text(q1answer1Input);
     $(".q1answer2").text(q1answer2Input);
@@ -52,7 +49,6 @@ $(document).ready (function() {
 
     $("#questionnaire").show();
 
-    event.preventDefault();
     });
  });
 

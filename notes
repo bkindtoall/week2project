@@ -31,3 +31,12 @@ width: 100%;
 height: 300px;
 display: block;
 opacity: 0.5;
+
+<img id="codewords" src="img/codewords.jpg" alt="many coding languages image">
+
+from questionnaire:
+<p>Your Questions 1: <span class="q1CodeFun"></span></p>
+<p>Your Questions 2: <span class="q2CodeFun"></span></p>
+<p>Your Questions 3: <span class="q3CodeFun"></span></p>
+<p>Your Questions 4: <span class="q4CodeFun"></span></p>
+<p>Your Questions 5: <span class="q5CodeFun"></span></p>
