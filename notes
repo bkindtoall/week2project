@@ -50,4 +50,17 @@ $("input[name='q1CodeFun']:checked").val();
   if(radioValue){
     alert("You chose: " + radioValue);
   }
-})
+});
+
+another similar to above:
+$(button).click(function(){
+  var favorite = [];
+$.each($("input['q1CodeFun']:checked"),function();
+  favorite.push($(this).val());
+});
+alert("You chose: " + favorite.join(","));
+});
+
+this in html instead of Submit
+<button onclick="myFunction()">Submit!</button>
+needs corresponding info in scripts

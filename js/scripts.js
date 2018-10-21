@@ -47,8 +47,8 @@ $(document).ready(function() {
     $(".q5answer5").text(q5answer5Input);
     $(".q5answer6").text(q5answer6Input);*/
 
-    $("input[type='button']").click(function(){
-      var radioValue =
+    $("input[type='radio']").click(function(){
+      var input =
     $("input[name='q1CodeFun']:checked").val();
       if(radioValue){
         alert("You chose: " + radioValue);
