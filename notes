@@ -40,3 +40,14 @@ from questionnaire:
 <p>Your Questions 3: <span class="q3CodeFun"></span></p>
 <p>Your Questions 4: <span class="q4CodeFun"></span></p>
 <p>Your Questions 5: <span class="q5CodeFun"></span></p>
+
+
+js file for radio buttons
+within document function
+$("input[type='button']").click(function(){
+  var radioValue=
+$("input[name='q1CodeFun']:checked").val();
+  if(radioValue){
+    alert("You chose: " + radioValue);
+  }
+})

@@ -3,7 +3,7 @@ $(document).ready(function() {
     event.preventDefault();
     var firstNameInput = $("input#firstName").val();
     var lastNameInput = $("input#lastName").val();
-    var q1answer1Input = $("input#q1answer1").val();
+    /*var q1answer1Input = $("input#q1answer1").val();
     var q1answer2Input = $("input#q1answer2").val();
     var q1answer3Input = $("input#q1answer3").val();
     var q1answer4Input = $("input#q1answer4").val();
@@ -22,11 +22,11 @@ $(document).ready(function() {
     var q5answer3Input = $("input#q5answer3").val();
     var q5answer4Input = $("input#q5answer4").val();
     var q5answer5Input = $("input#q5answer5").val();
-    var q5answer6Input = $("input#q5answer6").val();
+    var q5answer6Input = $("input#q5answer6").val();*/
 
     $(".firstName").text(firstNameInput);
     $(".lastName").text(lastNameInput);
-    $(".q1answer1").text(q1answer1Input);
+    /*$(".q1answer1").text(q1answer1Input);
     $(".q1answer2").text(q1answer2Input);
     $(".q1answer3").text(q1answer3Input);
     $(".q1answer4").text(q1answer4Input);
@@ -45,7 +45,15 @@ $(document).ready(function() {
     $(".q5answer3").text(q5answer3Input);
     $(".q5answer4").text(q5answer4Input);
     $(".q5answer5").text(q5answer5Input);
-    $(".q5answer6").text(q5answer6Input);
+    $(".q5answer6").text(q5answer6Input);*/
+
+    $("input[type='button']").click(function(){
+      var radioValue =
+    $("input[name='q1CodeFun']:checked").val();
+      if(radioValue){
+        alert("You chose: " + radioValue);
+      }
+    });
 
     $("#questionnaire").show();
 
