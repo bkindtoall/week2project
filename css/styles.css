@@ -1,9 +1,14 @@
 .jumbotron {
+  background-image: url(../img/codevisual.jpeg);
   background-color: #df6238;
   background-repeat: no-repeat;
   background-position: right 8px bottom 45%;
-  margin: 6px;
+  margin: 4px;
+  margin-right: 10px;
+  box-shadow: 6px 4px 4px black;  
+  
 }
+
 
 #codewords {
   width: 100%;
@@ -14,7 +19,6 @@
 .container-fluid {
   width: 100%;
   clear: both;
-/*  border: 2px solid black; */
 }
 
 #welcome {
