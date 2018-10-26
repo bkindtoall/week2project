@@ -1,15 +1,16 @@
-# fury-porfolio
+# Code On
 
-#### A Webpage about me and the projects I've done in week 1 of Epicodus
+#### Website guiding potential students to specific areas based on questionnaire
 
 #### By Patricia Filipovic
 
 ## Description
 
-Webpage with name banner, an image of me. A list of projects I've created with active links to their GitHub pages sites or GitHub repositories. Including a brief description of the project and what languages it uses.
-An “About Me” section. My background (education, job experience, or why did you decide to take a class on programming, etc). My current interests/hobbies/skills.
+## 1. Website that initially asks for user input specific to why they want to code. 
+## 2. Based on answers to questions, guides them to specific stacks.
+## 3. Provides information on all stacks discussed, giving student information so that can ultimately choose themselves.
 
-https://bkindtoall.gitHub.io/fury-portfolio
+https://bkindtoall.gitHub.io/wk2prjt
 
 
 ## Support and contact details
