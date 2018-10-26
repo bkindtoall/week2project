@@ -17,8 +17,6 @@ $(document).ready(function() {
     var didCheck5;
 
 
-    $(".firstName").text(firstNameInput);
-    $(".lastName").text(lastNameInput);
 
 
     for(var i=0; i < q1.length; i++) {
@@ -51,6 +49,8 @@ $(document).ready(function() {
             console.log(didCheck5)
         }
       }
+    $(".firstName").text(firstNameInput);
+    $(".lastName").text(lastNameInput);
 
     if (didCheck1 === "q1answer1" && didCheck2 === "q2answer1" && didCheck3 === "q3answer1" && didCheck4 === "q4answer1" && didCheck5 === "q5answer1") {
             document.write ("Javascript looks to be a great starting language for you!");
