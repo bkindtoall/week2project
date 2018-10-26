@@ -107,3 +107,10 @@ from js file
     $(".q5answer4").text(q5answer4Input);
     $(".q5answer5").text(q5answer5Input);
     $(".q5answer6").text(q5answer6Input);*/
+
+    tried moving text answer to an input field
+        function MoveContent() {
+        var q1Text = document.getElementsById("didCheck1");
+        var q1Replace = document.getElementsById("q1CodeFun");
+      }  
+
