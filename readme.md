@@ -12,8 +12,8 @@
 
 
 
-To view this webpage:
-https://bkindtoall.gitHub.io/wk2prjt
+To view this webpage go to:
+https://bkindtoall.github.io/week2project/
 
 ## Support and contact details
 
