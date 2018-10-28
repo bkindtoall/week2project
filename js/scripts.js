@@ -28,7 +28,6 @@ $(document).ready(function() {
         if(q2[i].checked){
             didCheck2 = q2[i].value;
             console.log(didCheck2)
-
         }
       }
     for(var i=0; i < q3.length; i++) {
@@ -51,21 +50,17 @@ $(document).ready(function() {
       }
     $(".firstName").text(firstNameInput);
     $(".lastName").text(lastNameInput);
-
-    if (didCheck1 === "q1answer1" && didCheck2 === "q2answer1" && didCheck3 === "q3answer1" && didCheck4 === "q4answer1" && didCheck5 === "q5answer1") {
-            document.write ("Javascript looks to be a great starting language for you!");
-        }
-        else if (didCheck1 === "q1answer2" && didCheck2 === "q2answer2" && didCheck3 === "q3answer2" && didCheck4 === "q4answer2" && didCheck5 === "q5answer2") {
-            document.write ("C # is an excellent starting point for you!");
-        }
-        else if (didCheck1 <= "q1answer4" && didCheck2 <= "q2answer4" && didCheck3 === "q3answer2" && didCheck4 === "q4answer2" && didCheck5 === "q5answer2") {
-            document.write ("CSS is your perfect language!");
-        }
-    });
-
-    // $(".q1CodeFun").text(didCheck1);
     $("#questionnaire").show();
 
+    if (didCheck1 === "q1answer1" && didCheck2 === "q2answer1" && didCheck3 === "q3answer1" && didCheck4 === "q4answer1" && didCheck5 === "q5answer1") {
+            alert (firstNameInput + " " + lastNameInput + " Javascript looks to be a great starting language for you!");
+        }
+        else if (didCheck1 === "q1answer2" && didCheck2 === "q2answer2" && didCheck3 === "q3answer2" && didCheck4 === "q4answer2" && didCheck5 === "q5answer2") {
+            alert (firstNameInput + " " + lastNameInput + " C # is an excellent starting point for you!");
+        }
+        else if (didCheck1 <= "q1answer4" && didCheck2 <= "q2answer4" && didCheck3 === "q3answer2" && didCheck4 === "q4answer2" && didCheck5 === "q5answer2") {
+            alert (firstNameInput + " " + lastNameInput + " CSS is your perfect language!");
+            result();
+        }
+    });
  });
-
-
